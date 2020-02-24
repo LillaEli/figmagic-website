@@ -1,0 +1,100 @@
+:root {
+	--color-blue: #4b93ff;
+	--color-green: #04fba2;
+	--color-darkgray: #292d3e;
+	--color-lightgray: #bfc7d5;
+}
+
+* {
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+		'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	padding: 4rem 0 0 0;
+	margin: 0;
+	background-color: var(--color-blue);
+	background-image: url('./img/lines.png');
+}
+
+code {
+	width: 90%;
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+		'Helvetica Neue', sans-serif;
+	font-size: 1.5rem;
+
+	background-color: var(--color-darkgray);
+	padding: 2rem;
+	border-radius: 0.5rem;
+	color: var(--color-lightgray);
+}
+
+img {
+	max-width: 100%;
+}
+
+img#ImgLogo {
+	width: 90%;
+	max-width: 700px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+span.SpanComment {
+	color: gray;
+	font-weight: 700;
+}
+
+button#DivGithub {
+	display: block;
+	margin: 0 auto;
+
+	text-align: center;
+	font-size: 1.5rem;
+
+	color: var(--color-darkgray);
+	background-color: var(--color-green);
+	padding: 1rem;
+	border: 0;
+	border-radius: 0.5rem;
+
+	box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.1);
+	transition: 0.5s;
+
+	cursor: pointer;
+}
+
+button#DivGithub:hover {
+	background-color: var(--color-darkgray);
+	color: white !important;
+	transition: 0.5s;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+	code {
+		font-size: 1.15rem;
+	}
+
+	div#DivGithub {
+		font-size: 1.25rem;
+	}
+}
