@@ -60,33 +60,38 @@ span.SpanComment {
 	font-weight: 700;
 }
 
-button#DivGithub {
+#GithubButton {
 	display: block;
 	margin: 0 auto;
 
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
+	font-weight: 700;
 
 	color: var(--color-darkgray);
 	background-color: var(--color-green);
-	padding: 1rem;
+	padding: 1rem 2rem;
 	border: 0;
 	border-radius: 0.5rem;
 
 	box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.1);
-	transition: 0.5s;
+	transition: 0.25s;
 
 	cursor: pointer;
 }
 
-button#DivGithub:hover {
+#GithubButton:hover {
 	background-color: var(--color-darkgray);
 	color: white !important;
-	transition: 0.5s;
+	transition: 0.25s;
 }
 
 a {
 	text-decoration: none;
+}
+
+#DivGithub {
+	margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -94,7 +99,11 @@ a {
 		font-size: 1.15rem;
 	}
 
-	div#DivGithub {
+	#GithubButton {
 		font-size: 1.25rem;
+	}
+
+	button {
+		max-width: 90%;
 	}
 }
