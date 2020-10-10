@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/18034985-3c47-4c04-b997-174a8017167c/deploy-status)](https://app.netlify.com/sites/figmagic/deploys)
 
-This is the source code for the public [https://github.com/mikaelvesavuori/figmagic](Figmagic) website, hosted through Netlify on [https://www.figmagic.com](https://www.figmagic.com).
+This is the source code for the public [Figmagic](https://github.com/mikaelvesavuori/figmagic) website, hosted through Netlify on [https://www.figmagic.com](https://www.figmagic.com).
 
 ## Development
 
