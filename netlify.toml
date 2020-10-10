@@ -1,7 +1,6 @@
 [build]
-  base = "src/"
-  publish = "build-output/"
-  command = "echo 'default context'"
+  base = "/"
+  publish = "src/"
   functions = "functions/"
 
 [dev]
