@@ -22,6 +22,7 @@ Since the site is run on Netlify, the repo is wired to use the `netlify dev` com
 
 - First you need the Netlify CLI; install it by running `npm install netlify-cli -g`
 - Inside of this repo, run `netlify dev` and your web browser should start up
+- Note that you may still need to manually update on changes, since it seems it doesn't do "watch mode" (?)
 
 ## Deployment and site updates
 
