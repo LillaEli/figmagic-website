@@ -26,7 +26,7 @@ Since the site is run on Netlify, the repo is wired to use the `netlify dev` com
 
 ## Deployment and site updates
 
-The GitHub Actions CI pipeline deploys code automatically from the `master` branch.
+The Netlify integration deploys code automatically from the `master` branch.
 
 ### Branching
 
