@@ -1,11 +1,4 @@
-/figma
-/grid
-/tokens
-/specs
-/jest-coverage
-**/jest-coverage
-
-yarn.lock
+*.lock
 
 ### Node ###
 
