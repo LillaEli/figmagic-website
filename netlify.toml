@@ -29,7 +29,7 @@
 		Content-Security-Policy = '''
 		default-src "none",
 		script-src "unsafe-inline" https: "nonce-CHANGE" "strict-dynamic",
-		style-src "self",
+		style-src "self" "https://figmagic.com/",
 		img-src "self" https:,
 		font-src "self" https:,
 		media-src "self" https:,
